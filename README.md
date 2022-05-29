@@ -9,7 +9,7 @@ Pelicula is a recommender system based on the preferences of users and it recomm
 
 The details of the movies(title, poster, etc) are fetched using an API by TMDB, https://www.themoviedb.org/documentation/api.
 
-Checkout the live demo : [(https://mrs-peculia.herokuapp.com/)](https://mrs-peculia.herokuapp.com/)
+Checkout the live demo : [[(https://mrs-peculia.herokuapp.com/)](https://mrs-peculia.herokuapp.com/)](https://mrs-pelicula.herokuapp.com/)
 
 ## How to run the Project?
 1. Clone or download this repository to your local machine.
