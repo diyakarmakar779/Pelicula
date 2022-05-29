@@ -17,5 +17,27 @@ Checkout the live demo : https://mrs-pelicula.herokuapp.com/
 5. Go to your browser and type http://127.0.0.1:5000/ in the address bar.
 
 ## Sources of the Datasets
-1. ['IMDB 5000 Movie Dataset']https://www.kaggle.com/tmdb/tmdb-movie-metadata?select=tmdb_5000_movies.csv
-2. 
+https://www.kaggle.com/tmdb/tmdb-movie-metadata?select=tmdb_5000_movies.csv
+
+## Project Flow
+1. Collection of data and Data preprocessing
+2. Building the ML model
+3. Building the website
+4. Deployment
+
+## Core Idea
+### What is Recommender system?
+A recommender system, or a recommendation system (sometimes replacing 'system' with a synonym such as platform or engine), is a subclass of information filtering system that seeks to predict the "rating" or "preference" a user would give to an item.
+
+### Types of Recommneder system
+1. Content based recommender systems use items or users metadata to create specific recommendations.
+2. Collaborative filtering - The idea of collaborative filtering is simple: User group behavior is used to make recommendations to other users. Since the recommendation is based on the preferences of other users it is called collaborative. 
+3. Hybrid recommenders - They represent a combination of different recommenders. The assumption is that a combination of several different recommenders will give better results than a single algorithm.
+
+### Similarity Score
+How does it decide which item is most similar to the item user likes? Here come the similarity scores.
+
+It is a numerical value which ranges from zero to one which helps to determine to what degree two items are similar to each other on a scale of zero to one. This similarity score is obtained measuring the similarity between the text details of both of the items. So, similarity score is the measure of similarity between given text details of two items. This can be done by cosine-similarity.
+
+### How Cosine Similarity works?
+Cosine similarity is a metric used to measure how similar the documents are irrespective of their size. Mathematically, it measures the cosine of the angle between two vectors projected in a multi-dimensional space. The cosine similarity is advantageous because even if the two similar documents are far apart by the Euclidean distance (due to the size of the document), chances are they may still be oriented closer together.
