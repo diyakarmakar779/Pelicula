@@ -2,6 +2,9 @@ import pickle
 import streamlit as st
 import requests
 
+st.markdown("<h1 style='text-align: none; color: red;'>Pelicula</h1>", unsafe_allow_html=True)
+
+
 # METHOD FOR FETCHING POSTER AND ITS PATH
 def fetch_poster(movie_id):
     url = "https://api.themoviedb.org/3/movie/{}?api_key=8265bd1679663a7ea12ac168da84d2e8&language=en-US".format(movie_id)
@@ -27,6 +30,7 @@ def recommend(movie):
 
 
 st.header('Movie Recommender System')
+st.write('Are you looking for a movie? Do you want to watch a comedy but in Bollywood? Or are you just confused with what to watch next? If so, then your at the right place!!!')
 movies = pickle.load(open('movies_list.pkl','rb'))
 similarity = pickle.load(open('similarity.pkl','rb'))
 
