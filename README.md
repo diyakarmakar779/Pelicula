@@ -16,7 +16,6 @@ Checkout the live demo : https://mrs-pelicula.herokuapp.com/
 2. Install all the libraries mentioned in the [requirements.txt](requirements.txt) file with the command pip install -r requirements.txt
 3. Get your API key from https://www.themoviedb.org/.
 4. Open your terminal/command prompt from your project directory and run the file app.py by executing the command python app.py.
-5. Go to your browser and type http://127.0.0.1:5000/ in the address bar.
 
 ## Sources of the Datasets
 https://www.kaggle.com/tmdb/tmdb-movie-metadata?select=tmdb_5000_movies.csv
