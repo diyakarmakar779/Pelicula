@@ -8,7 +8,6 @@ Are you looking for a movie? Do you want to watch a comedy but in Bollywood? Or 
 The details of the movies(title, poster, etc) are fetched using an API by TMDB, https://www.themoviedb.org/documentation/api.
 
 Checkout the live demo : https://mrs-pelicula.herokuapp.com/
-Link to the youtube demo : 
 
 ## How to run the Project?
 1. Clone or download this repository to your local machine.
